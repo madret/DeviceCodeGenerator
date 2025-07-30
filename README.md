@@ -12,7 +12,7 @@ You can test the Microsoft device code flow manually without the need of install
 ```
 curl -s -X POST `
   -H "Content-Type: application/x-www-form-urlencoded" `
-  -d "client_id=93d53678-613d-4013-afc1-62e9e444a0a5&resource=https://graph.microsoft.com/" `
+  -d "client_id=04b07795-8ddb-461a-bbee-02f9e1bf7b46&resource=https://graph.microsoft.com/" `
   "https://login.microsoftonline.com/common/oauth2/devicecode?api-version=1.0" | ConvertFrom-Json | ConvertTo-Json -Depth 10
 ```
 
@@ -27,7 +27,7 @@ curl -s -X POST `
 ```
 curl -s -X POST `
   -H "Content-Type: application/x-www-form-urlencoded" `
-  -d "grant_type=urn:ietf:params:oauth:grant-type:device_code&client_id=93d53678-613d-4013-afc1-62e9e444a0a5&device_code=YOUR_DEVICE_CODE_HERE" `
+  -d "grant_type=urn:ietf:params:oauth:grant-type:device_code&client_id=04b07795-8ddb-461a-bbee-02f9e1bf7b46&device_code=YOUR_DEVICE_CODE_HERE" `
   "https://login.microsoftonline.com/common/oauth2/token" | ConvertFrom-Json | ConvertTo-Json -Depth 10
 ```
 
