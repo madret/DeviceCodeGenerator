@@ -2,7 +2,7 @@
 Quick steps to generate Microsoft device codes for testing purposes.
 
 #### Why ? 
-You can test the Microsoft device code flow manually quick & dirty without the need of installing any powershell modules.
+You can test the Microsoft device code flow manually without the need of installing any powershell modules.
 
 ## 1. Generate a device code
 
@@ -33,3 +33,6 @@ curl -s -X POST `
 
 2. Keep in mind to change "YOUR_DEVICE_CODE_HERE" to the actual device code you've generated earlier.
 3. Done
+
+## Credits
+Early work by https://github.com/rvrsh3ll Author of TokenTactics.
