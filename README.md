@@ -33,7 +33,7 @@ curl -s -X POST `
   "https://login.microsoftonline.com/common/oauth2/v2.0/token" | ConvertFrom-Json | ConvertTo-Json -Depth 10
 ```
 
-2. Keep in mind to use the same prompt so earlier `$device` variable can be used.
+2. Keep in mind to use the same Powershell session so earlier `$device` variable can be used.
 3. Done, the Access token can be used for additional testing purposes.
 
 ## Credits
