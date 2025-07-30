@@ -1,6 +1,9 @@
 # DeviceCodeGenerator
 Quick steps to generate Microsoft device codes for testing purposes.
 
+#### Why ? 
+You can test the Microsoft device code flow manually quick & dirty without the need of installing any powershell modules.
+
 ## 1. Generate a device code
 
 1. Open a Powershell prompt
